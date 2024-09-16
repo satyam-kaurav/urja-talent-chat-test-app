@@ -1,0 +1,50 @@
+.container {
+  background-color: black;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info{
+  background-color: blue;
+  flex-grow: 10;
+}
+
+.main-panel {
+  background-color: white;
+  flex-grow: 80;
+  display: flex;
+}
+
+.convo-list {
+  background-color: cadetblue;
+  flex-grow: 20;
+}
+
+.chat-panel {
+  /* background-color: brown; */
+  flex-grow: 80;
+}
+
+.user-action {
+  background-color: yellow;
+  flex-grow: 10;
+}
+
+.convo {
+  background-color: bisque;
+  padding: 0.4rem;
+  margin: 0.1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-bubble-self {
+  color: blue;
+}
+
+.message-bubble-other {
+  color: green,
+  
+}
